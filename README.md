@@ -43,8 +43,8 @@ Here are some ideas to get you started:
 ### ⚙️ &nbsp;GitHub Analytics
 
 <p align="center">
-<a href="https://github.com/hackerman001"><img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=hackerman001&show_icons=true&theme=vue-dark&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=hackerman001&layout=compact&exclude_lang=java+r&theme=vue-dark" />
+<a href="https://github.com/godwinKvg"><img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=godwinKvg&show_icons=true&theme=vue-dark&include_all_commits=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=godwinKvg&layout=compact&exclude_lang=java+r&theme=vue-dark" />
 </a>
 </p>
 
