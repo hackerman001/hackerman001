@@ -51,7 +51,7 @@ Here are some ideas to get you started:
 ### 🤝🏻 &nbsp;Connect with Me
 
 <p align="center">
-<a href="https://www.godwinkvg.netlify.com"><img src="https://img.shields.io/badge/-godwinKvg.com-3423A6?style=flat-square&logo=Google-Chrome&logoColor=white"/></a>
+<a href="https://godwinkvg.netlify.app/"><img src="https://img.shields.io/badge/-godwinKvg.com-3423A6?style=flat-square&logo=Google-Chrome&logoColor=white"/></a>
 <a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/-godwinKvg-0077B5?style=flat-square&logo=Linkedin&logoColor=white"/></a>
 <a href="mailto:godwinkvg@gmail.com"><img src="https://img.shields.io/badge/-@godwinkvg-D14836?style=flat-square&logo=Gmail&logoColor=white"/></a>
 <a href="https://instagram.com/godwin_kvg"><img src="https://img.shields.io/badge/-@godwin_kvg-E4405F?style=flat-square&logo=Instagram&logoColor=white"/></a>
