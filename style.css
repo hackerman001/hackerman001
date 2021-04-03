@@ -1,0 +1,66 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+    line-height: 3ch;
+    word-spacing: 0.8ch;
+   
+    display: grid;
+    place-items: center;    
+}
+
+td{
+    vertical-align: top;
+}
+
+#left {
+  background-color: #0bb5f4;
+  color: white !important;
+}
+
+#left_content {
+  padding: 0 10px;
+}
+
+h3 {
+  color: #0bb5f4;
+}
+
+.social {
+  margin-right: 10px;
+}
+
+a {
+  color: whitesmoke;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+#competences td {
+  font-weight: bold;
+}
+
+#right{
+    padding: 20px;
+}
+
+form{width: 80%;}
+
+
+input,textarea{
+    outline: 0;
+    border-radius:10px ;
+    padding: 10px;
+    border-width: 1px;
+    cursor: pointer;
+   
+}
+
+input:focus,textarea:focus{
+    border-color: blue;
+    border-width: 3px;
+}
+
+input[type="button"]{
+    cursor: pointer;
+}
