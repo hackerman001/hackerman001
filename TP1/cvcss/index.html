@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV | Godwin Kavege</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
-    <table border="1">
+    <table border="1" style="min-width: 600px">
       <tr>
         <td id="left">
-          <img width="100%" src="../images/profile.jpg" alt="Profile" />
+          <img width="100%" src="../images/profile.png" alt="Profile" />
           <div id="left_content">
-            <h2>KAVEGE Kodjo Godwin Leger</h2>
+            <h2 style="margin: 0">KAVEGE Kodjo Godwin Leger</h2>
             <span>Developpeur Web</span>
 
-            <ul>
+            <ul style="list-style: disc">
               <li>
                 <address>Al Hoceima, Maroc</address>
               </li>
@@ -35,7 +36,7 @@
 
             <hr />
 
-            <h3>COMPETENCES</h3>
+            <h3 style="color: white">COMPETENCES</h3>
             <table id="competences">
               <tr>
                 <td>HTML</td>
@@ -87,7 +88,7 @@
               </tr>
             </table>
             <hr />
-            <h3>RESEAUX SOCIAUX</h3>
+            <h3 style="color: white">RESEAUX SOCIAUX</h3>
             <table>
               <tr>
                 <b
@@ -160,7 +161,7 @@
           </p>
           <hr />
           <h3>EXPERIENCE</h3>
-          <ul>
+          <ul style="list-style: circle">
             <li>
               <em>2017-2018</em>
               <h4>Lorem ipsum.</h4>
@@ -188,7 +189,7 @@
           </ul>
           <hr />
           <h3>EDUCATION</h3>
-          <ul>
+          <ul style="list-style: circle">
             <li>
               <em>2010 - 2013</em>
               <h4>Web Designing (Texas University)</h4>
@@ -217,14 +218,16 @@
 
           <hr />
           <h3>HOBBY</h3>
-          <ul>
+          <ul style="list-style: inside">
             <li>Cuisine</li>
             <li>Basketball</li>
             <li>Gaming</li>
             <li>Voyage</li>
           </ul>
           <br /><br />
-          <a href="/cv.pdf"> Telecharger mon CV ici </a>
+          <a href="../cv.pdf" style="color: red; font-weight: bold">
+            Telecharger mon CV ici
+          </a>
         </td>
       </tr>
     </table>
@@ -313,10 +316,24 @@
           </tr>
         </table>
       </table>
-      <input type="button" value="Envoyer" />
+      <input
+        type="button"
+        value="Envoyer"
+        style="
+          background: linear-gradient(
+            to right top,
+            #051937,
+            #004d7a,
+            #008793,
+            #00bf72,
+            #a8eb12
+          );
+          color: white;
+        "
+      />
     </form>
 
-    <div>
+    <div style="width: 300px">
       <marquee direction="left">
         <h1>THANK YOU | MERCI | XHOKRAN | GRACIAS</h1>
       </marquee>
