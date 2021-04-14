@@ -1,0 +1,166 @@
+// J'utilise les SASS pour me rendre la tâche facile
+// au niveau des imbrications et aussi l'utilisation
+
+
+$space:3px;
+
+$taille:70px;
+
+* {
+    box-sizing: border-box;
+}
+
+.case1,
+.case2,
+.case3 {
+    width: $taille;
+    height: $taille;
+    border: 2px solid black;
+}
+
+.case1 {
+    background-color: #D99694;
+}
+
+.case2 {
+    background-color: #C4BD97;
+}
+
+.case3 {
+    background-color: #558ED5;
+}
+
+.figure1,
+.figure2,
+.figure3,
+.figure4 {
+    margin-top: 30px;
+}
+
+
+.figure3 {
+    .case1 {
+        height: $taille;
+        width: 2.1*$taille;
+    }
+}
+
+.relative {
+
+    .case1,
+    .case2,
+    .case3 {
+        position: relative;
+    }
+
+    .figure1 {
+        .case2 {
+            top: $space;
+        }
+
+        .case3 {
+            top: 2*$space;
+        }
+    }
+
+    .figure2 {
+        .case2 {
+            left: $taille;
+        }
+
+        .case3 {
+            left: 2*$taille;
+        }
+    }
+
+    .figure3 {
+        .case2 {
+            top: $space;
+        }
+
+        .case3 {
+            left: $taille+$space;
+            top: (-1)*$taille+$space;
+        }
+
+
+    }
+
+    .figure4 {
+
+        .case2 {
+            top: $space;
+        }
+
+        .case3 {
+            top: (-2)*$taille;
+            left: $taille+$space;
+        }
+
+    }
+
+
+
+
+}
+
+.absolute {
+
+    .figure1,
+    .figure2,
+    .figure3,
+    .figure4 {
+        position: relative;
+        height: 200px;
+
+        .case1,
+        .case2,
+        .case3 {
+            position: absolute;
+        }
+    }
+
+    .figure1 {
+        .case2 {
+            top: $taille+$space;
+        }
+
+        .case3 {
+            top: 2*($taille+$space);
+        }
+    }
+
+    .figure2 {
+        .case2 {
+            top: $taille;
+            left: $taille;
+        }
+
+        .case3 {
+            top: 2*($taille);
+            left: 2*($taille);
+        }
+    }
+
+    .figure3 {
+        .case2 {
+            top: $taille + $space;
+        }
+
+        .case3 {
+            top: $taille + $space;
+            left: $taille+$space;
+        }
+    }
+
+    .figure4 {
+        .case2 {
+            top: $taille + $space;
+        }
+
+        .case3 {
+            left: $taille+$space;
+        }
+    }
+
+}
