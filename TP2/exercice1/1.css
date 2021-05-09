@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .case1,
@@ -11,15 +12,15 @@
 }
 
 .case1 {
-  background-color: #D99694;
+  background-color: #d99694;
 }
 
 .case2 {
-  background-color: #C4BD97;
+  background-color: #c4bd97;
 }
 
 .case3 {
-  background-color: #558ED5;
+  background-color: #558ed5;
 }
 
 .figure1,
@@ -39,28 +40,36 @@
 .relative .case3 {
   position: relative;
 }
+
 .relative .figure1 .case2 {
   top: 3px;
 }
+
 .relative .figure1 .case3 {
   top: 6px;
 }
+
 .relative .figure2 .case2 {
   left: 70px;
 }
+
 .relative .figure2 .case3 {
   left: 140px;
 }
+
 .relative .figure3 .case2 {
   top: 3px;
 }
+
 .relative .figure3 .case3 {
   left: 73px;
   top: -67px;
 }
+
 .relative .figure4 .case2 {
   top: 3px;
 }
+
 .relative .figure4 .case3 {
   top: -140px;
   left: 73px;
@@ -73,6 +82,7 @@
   position: relative;
   height: 200px;
 }
+
 .absolute .figure1 .case1,
 .absolute .figure1 .case2,
 .absolute .figure1 .case3,
@@ -87,30 +97,39 @@
 .absolute .figure4 .case3 {
   position: absolute;
 }
+
 .absolute .figure1 .case2 {
   top: 73px;
 }
+
 .absolute .figure1 .case3 {
   top: 146px;
 }
+
 .absolute .figure2 .case2 {
   top: 70px;
   left: 70px;
 }
+
 .absolute .figure2 .case3 {
   top: 140px;
   left: 140px;
 }
+
 .absolute .figure3 .case2 {
   top: 73px;
 }
+
 .absolute .figure3 .case3 {
   top: 73px;
   left: 73px;
 }
+
 .absolute .figure4 .case2 {
   top: 73px;
 }
+
 .absolute .figure4 .case3 {
   left: 73px;
-}/*# sourceMappingURL=1.css.map */
+}
+/*# sourceMappingURL=1.css.map */

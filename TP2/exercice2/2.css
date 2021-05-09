@@ -1,5 +1,5 @@
 body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header,
@@ -12,6 +12,7 @@ section {
 header,
 footer,
 section {
+  display: -ms-grid;
   display: grid;
   place-items: center;
 }
@@ -28,21 +29,27 @@ footer {
   height: 40px;
   background-color: #C4BD97;
 }
+
 .section1 {
   background-color: #C6D9F1;
 }
+
 .section2 {
   background-color: #E6B9B8;
 }
+
 .section3 {
   background-color: #C3D69B;
 }
+
 .section4 {
   background-color: #FAC090;
 }
+
 .section5 {
   background-color: #00B0F0;
 }
+
 .section6 {
   background-color: #00AFEF;
 }
@@ -54,48 +61,52 @@ footer {
 
 @media (min-width: 768px) and (max-width: 1024px) {
   header,
-footer,
-section {
+  footer,
+  section {
     height: 50px;
   }
-
   .section1, .section2 {
     margin-bottom: 0;
   }
-
   .grid-4 {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
     grid-gap: 5px;
   }
   .grid-4 section {
     height: 70px;
   }
 }
+
 @media screen and (min-width: 1025px) {
   header,
-footer {
+  footer {
     height: 50px;
   }
-
   .grid-2 {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
     grid-gap: 5px;
   }
   .grid-2 section {
     height: 100px;
   }
-
   .grid-4 {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
     grid-gap: 5px;
   }
   .grid-4 section {
     height: 70px;
   }
 }
+
 /*
 
 RESPONSIVENESS WITHOUT MEDIA QUERIES 
@@ -119,4 +130,5 @@ RESPONSIVENESS WITHOUT MEDIA QUERIES
         height: 70px;
     }
 }
-*//*# sourceMappingURL=2.css.map */
+*/
+/*# sourceMappingURL=2.css.map */
