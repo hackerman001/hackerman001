@@ -1,0 +1,34 @@
+.figure{
+height: 100px;
+width: 100px;
+}
+.color1{
+  background-color: #D99694;
+}
+.color2{
+  background-color: #C4BD97;
+}
+.color3{
+  background-color: #558ED5;
+}
+#center_figure2{
+
+  left: 103px;
+}
+#bottom_figure2{
+
+  left: 202px;
+}
+#top_figure3{
+  width: 210px;
+}
+#bottom_figure3{
+
+  left: 110px;
+  top: -100px;
+}
+#bottom_figure4{
+
+  left: 104px;
+  top: -204px;
+}
