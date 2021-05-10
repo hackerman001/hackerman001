@@ -1,331 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="index.css">
     <title>CV | Godwin Kavege</title>
-  </head>
+</head>
 
-  <body>
-    <table border="1">
-      <tr>
-        <td id="left">
-          <img width="100%" src="../images/profile.png" alt="Profile" />
-          <div id="left_content">
-            <h2>KAVEGE Kodjo Godwin Leger</h2>
-            <span>Developpeur Web</span>
+<body>
+    <div class="cv">
+        <div class="leftSide">
+            <h3>Godwin Kavege</h3>
+            <h5>Web Developer</h5>
+            <img src="https://cdn0.iconfinder.com/data/icons/social-media-network-4/48/male_avatar-512.png"
+                alt="Profile Image" class="profile">
 
-            <ul>
-              <li>
-                <address>Al Hoceima, Maroc</address>
-              </li>
-              <li>Tel : <a href="tel:+(212) 6xxxxxxxx">+(212) 6xxxxxxxx</a></li>
-              <li>
-                Mail :
-                <a href="mailto:godwinkavege@gmail.com"
-                  >godwin (Cliquez dessus)</a
-                >
-              </li>
-              <li>
-                Site Web :
-                <a href="https://godwinkvg.netlify.app">godwinkvg.com</a>
-              </li>
-              <li>
-                Mon site linktree :
-                <a href="https://linktree-a2c94.web.app/">linktree-godwin.com</a>
-              </li>
-            </ul>
-
-            <hr />
-
-            <h3>COMPETENCES</h3>
-            <table id="competences">
-              <tr>
-                <td>HTML</td>
-                <td>
-                  <progress value="70" max="100">70%</progress>
-                </td>
-              </tr>
-              <tr>
-                <td>BOOTSTRAP</td>
-                <td>
-                  <progress value="90" max="100">90%</progress>
-                </td>
-              </tr>
-              <tr>
-                <td>JAVASCRIPT</td>
-                <td>
-                  <progress value="70" max="100">70%</progress>
-                </td>
-              </tr>
-              <tr>
-                <td>NODEJS</td>
-                <td>
-                  <progress value="50" max="100">50%</progress>
-                </td>
-              </tr>
-              <tr>
-                <td>PHP</td>
-                <td>
-                  <progress value="70" max="100">70%</progress>
-                </td>
-              </tr>
-              <tr>
-                <td>CMS</td>
-                <td>
-                  <progress value="80" max="100">80%</progress>
-                </td>
-              </tr>
-              <tr>
-                <td>VSCODE</td>
-                <td>
-                  <progress value="80" max="100">80%</progress>
-                </td>
-              </tr>
-              <tr>
-                <td>ATOM</td>
-                <td>
-                  <progress value="40" max="100">40%</progress>
-                </td>
-              </tr>
-            </table>
-            <hr />
-            <h3>RESEAUX SOCIAUX</h3>
-            <table>
-              <tr>
-                <b
-                  ><img
-                    class="social"
-                    src="../images/facebook.png"
-                    width="20"
-                  />
-                  Facebook</b
-                >
-                <p><a>godwinKvg@facebook</a></p>
-              </tr>
-              <tr>
-                <b
-                  ><img
-                    class="social"
-                    src="../images/twitter.png"
-                    width="20"
-                  />Twitter</b
-                >
+            <div class="about">
+                <h3>About</h3>
                 <p>
-                  <a href="https://twitter.com/godwin_kvg">
-                    <i>@godwin_kvg</i>
-                  </a>
+                    Je suis age de 20 ans,celibataire ,de nationalite togolaise.Je suis ingenieur en INFORMATIQUE de
+                    l'Ecole Nationale des
+                    Sciences Appliquees Al Hoceima au Maroc. Aujourd'hui je travaille dans mon cabinet en tant que
+                    Consultant Informatique.
                 </p>
-              </tr>
-              <tr>
-                <b
-                  ><img
-                    class="social"
-                    src="../images/youtube.png"
-                    width="20"
-                  />Youtube</b
-                >
+            </div>
+            <div class="socials">
+                <a href="https://twitter.com/godwin_kvg">
+
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCh4mrrrRaIEXBeqZ9Ns-CgQ">
+
+                    <i class="bi bi-youtube"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/kodjo-godwin-leger-kavege-8a5b82159/"><i
+                        class="bi bi-linkedin"></i></a>
+
+                <a href="https://github.com/godwinKvg"><i class="bi bi-github"></i></a>
+
+
+
+            </div>
+
+
+            <form>
+                <div>
+                    <label>Email</label>
+                    <input type="email" placeholder="Your email">
+                </div>
+                <div>
+                    <label>Name</label>
+                    <input type="name" placeholder="Your Name">
+                </div>
+                <div>
+                    <label>Message</label>
+                    <textarea type="text" placeholder="Your Message"></textarea>
+                </div>
+                <div>
+                    <label>Date de rencontre</label>
+                    <input type="date" id="date">
+                </div>
+
+                <button type="submit">Me Contacter</button>
+
+            </form>
+        </div>
+        <div class="rightSide">
+            <div class="infos">
                 <p>
-                  <a
-                    href="https://www.youtube.com/channel/UCh4mrrrRaIEXBeqZ9Ns-CgQ"
-                  >
-                    <i>Codage et Creativite</i></a
-                  >
+                    <i class="bi bi-telephone-fill"></i>
+                    <a href="tel:+(212) 6xxxxxxxx">+(212) 6xxxxxxxx</a>
                 </p>
-              </tr>
-              <tr>
-                <b
-                  ><img
-                    class="social"
-                    src="../images/linkedin.png"
-                    width="20"
-                  />Linkedin</b
-                >
                 <p>
-                  <i
-                    ><a
-                      href="https://www.linkedin.com/in/kodjo-godwin-leger-kavege-8a5b82159/"
-                      >@Godwin</a
-                    ></i
-                  >
+                    <i class="bi bi-globe"></i>
+                    <a href="https://godwinkvg.netlify.app">godwinkvg.com</a>
                 </p>
-              </tr>
-            </table>
-          </div>
-        </td>
-        <td id="right">
-          <h3>A PROPOS DE MOI</h3>
-          <p>
-            Je suis age de 20 ans,celibataire ,de nationalite togolaise.Je suis
-            ingenieur en INFORMATIQUE de l'Ecole Nationale des Sciences
-            Appliquees Al Hoceima au Maroc. Aujourd'hui je travaille dans mon
-            cabinet en tant que Consultant Informatique.
-          </p>
-          <hr />
-          <h3>EXPERIENCE</h3>
-          <ul>
-            <li>
-              <em>2017-2018</em>
-              <h4>Lorem ipsum.</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nostrum, voluptatibus!
-              </p>
-            </li>
-            <li>
-              <em>2017-2018</em>
-              <h4>Lorem ipsum.</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nostrum, voluptatibus!
-              </p>
-            </li>
-            <li>
-              <em>2017-2018</em>
-              <h4>Lorem ipsum.</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nostrum, voluptatibus!
-              </p>
-            </li>
-          </ul>
-          <hr />
-          <h3>EDUCATION</h3>
-          <ul>
-            <li>
-              <em>2010 - 2013</em>
-              <h4>Web Designing (Texas University)</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nostrum, voluptatibus!
-              </p>
-            </li>
-            <li>
-              <em>2010 - 2013</em>
-              <h4>Web Designing (Texas University)</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nostrum, voluptatibus! elit. Nostrum, voluptatibus!
-              </p>
-            </li>
-            <li>
-              <em>2010 - 2013</em>
-              <h4>Web Designing (Texas University)</h4>
-              <p>
-                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Nostrum, voluptatibus!
-              </p>
-            </li>
-          </ul>
+                <p>
+                    <i class="bi bi-globe"></i>
+                    <a href="https://godwinkvg.netlify.app">godwinkvg.com</a>
+                    <a href="https://linktree-a2c94.web.app/">linktree-godwin.com</a>
+                </p>
+                <p>
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <a href="#">Site Ait Youssef</a>
+                </p>
+            </div>
+            <div class="experience">
+                <h3>Experience</h3>
 
-          <hr />
-          <h3>HOBBY</h3>
-          <ul>
-            <li>Cuisine</li>
-            <li>Basketball</li>
-            <li>Gaming</li>
-            <li>Voyage</li>
-          </ul>
-          <br /><br />
-          <a href="/cv.pdf"> Telecharger mon CV ici </a>
-        </td>
-      </tr>
-    </table>
+                <div class="experience-part">
+                    <h4>Lorem ipsum ipsum ipsum.</h4>
+                    <span>Jan 2017-2018</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                </div>
+                <div class="experience-part">
+                    <h4>Lorem ipsum ipsum ipsum.</h4>
+                    <span>Jan 2017-2018</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                </div>
 
-    <h4>Veuillez remplir ce formulaire pour me contacter</h4>
+            </div>
+            <div class="education">
+                <h3>Education</h3>
+                <div class="education-part">
+                    <h4>Lorem ipsum ipsum ipsum.</h4>
+                    <span>Jan 2017-2018</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                </div>
+                <div class="education-part">
+                    <h4>Lorem ipsum ipsum ipsum.</h4>
+                    <span>Jan 2017-2018</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                </div>
+            </div>
 
-    <form action="#">
-      <table>
-        <tr>
-          <td>
-            <label for="email"><b>Email :</b></label>
-          </td>
-          <td><input type="text" name="email" id="email" /></td>
-        </tr>
-        <tr>
-          <td>
-            <label for="nom"><b>Nom :</b></label>
-          </td>
-          <td><input type="text" name="nom" id="nom" /></td>
-        </tr>
-        <tr>
-          <td>
-            <label for="telephone"><b>Telephone :</b></label>
-          </td>
-          <td><input type="text" name="telephone" id="telephone" /></td>
-        </tr>
-        <tr>
-          <td>
-            <label for="message"><b>Message :</b></label>
-          </td>
-          <td>
-            <textarea
-              rows="6"
-              type="text"
-              name="message"
-              id="message"
-            ></textarea>
-          </td>
-        </tr>
+            <div class="lobbies">
+                <div class="lobby">
+                    <i class="bi bi-arrow-up"></i>
+                    <span>Traveling</span>
+                </div>
 
-        <table>
-          <th>Vous aimez ?</th>
-          <tr>
-            <td>
-              <input type="checkbox" name="Mangue" id="Mangue" />
-              <label for="Mangue">Mangue</label>
-            </td>
-            <td>
-              <input type="checkbox" name="Ananas" id="Ananas" />
-              <label for="Ananas">Ananas</label>
-            </td>
-            <td>
-              <input type="checkbox" name="orange" id="orange" />
-              <label for="orange">Orange</label>
-            </td>
-          </tr>
-        </table>
-        <tr>
-          <br />
-          <label for="ville"> <b>Selectionnez votre Ville : </b></label>
-          <select name="ville" id="ville">
-            <option value="Al Hoceima">Al Hoceima</option>
-            <option value="Kouribgha">Kouribgha</option>
-            <option value="Rabat">Rabat</option>
-            <option value="Casa">Casa</option>
-          </select>
-          <br /><br />
-        </tr>
-        <tr>
-          <label for="date"><b>Date de rencontre : </b></label>
-          <input type="date" id="date" />
-          <br /><br />
-        </tr>
-        <table>
-          <th>Vous êtes ?</th>
-          <tr>
-            <td>
-              <input type="radio" name="genre" id="femme" />
-              <label for="femme">Femme</label>
-            </td>
-            <td></td>
-            <td>
-              <input type="radio" name="genre" id="Homme" />
-              <label for="Homme">Homme</label>
-            </td>
-          </tr>
-        </table>
-      </table>
-      <input type="button" value="Envoyer" />
-    </form>
-
-    <div>
-      <marquee direction="left">
-        <h1>THANK YOU | MERCI | XHOKRAN | GRACIAS</h1>
-      </marquee>
+                <div class="lobby">
+                    <i class="bi bi-camera-reels"></i>
+                    <span>Video Maker</span>
+                </div>
+                <div class="lobby">
+                    <i class="bi bi-bicycle"></i>
+                    <span>Cycling</span>
+                </div>
+            </div>
+        </div>
     </div>
-    
-    <center>Date de mise à jour <b>06 AVril 2021</b></center>
-  </body>
+</body>
+
 </html>
